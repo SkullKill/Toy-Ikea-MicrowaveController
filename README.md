@@ -18,6 +18,15 @@ Microwave Controller for Ikea Kitchen DUKTIG
   
   ATTiny841
 
+![Toy-Ikea-MicrowaveController-01.jpg](https://github.com/SkullKill/Toy-Ikea-MicrowaveController-PCB/wiki/images/Toy-Ikea-MicrowaveController-01.jpg)
+
+![Toy-Ikea-MicrowaveController-02.jpg](https://github.com/SkullKill/Toy-Ikea-MicrowaveController-PCB/wiki/images/Toy-Ikea-MicrowaveController-02.jpg)
+
+![Toy-Ikea-MicrowaveController-03.jpg](https://github.com/SkullKill/Toy-Ikea-MicrowaveController-PCB/wiki/images/Toy-Ikea-MicrowaveController-03.jpg)
+
+![Toy-Ikea-MicrowaveController-schematics-V1.0.jpg](https://github.com/SkullKill/Toy-Ikea-MicrowaveController-PCB/wiki/images/Toy-Ikea-MicrowaveController-schematics-V1.0.jpg)
+
+
   ------------------------------------------------------------
   ## Features
   
