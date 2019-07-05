@@ -19,7 +19,7 @@ Microwave Controller for Ikea Kitchen DUKTIG
   ATTiny841
 
   ------------------------------------------------------------
-  - Features
+  ## Features
   
   increment timer by 5 sec from 0 to 60 sec
   
@@ -46,7 +46,7 @@ Microwave Controller for Ikea Kitchen DUKTIG
   
   V 1.0 - 30/06/2019 - Initial Release
   ------------------------------------------------------------
-  - PCB Board Used
+  ## PCB Board Used
   
   https://www.skstore.com.au/electronics/pcb/Toy-Ikea-MicrowaveController
 
@@ -58,33 +58,33 @@ Microwave Controller for Ikea Kitchen DUKTIG
   https://github.com/SkullKill/Toy-Ikea-MicrowaveController-PCB/wiki
   
   ------------------------------------------------------------
-  - Code Used
+  ## Code Used
   
   https://github.com/SkullKill/Toy-Ikea-MicrowaveController
   
   ------------------------------------------------------------
-  - Video
+  ## Video
   
   https://youtu.be/BQZ9P_Z0Fzc
 
   ------------------------------------------------------------
-  - Product Used (included)
+  ## Product Used (included)
   
   15mm Aluminium Knob
   
   10mm Spacer/Standoff and M3 Screws
   
   ------------------------------------------------------------
-  - Product Used (not included)
+  ## Product Used (not included)
   
-  Ikea DUKTIG Play kitchen, birch
+  - Ikea DUKTIG Play kitchen, birch
   
   Article Number : 403.199.73
   
   https://www.ikea.com/au/en/catalog/products/40319973/
   
 
-  Ikea LEDBERG LED spotlight, white, 4 pack
+  - Ikea LEDBERG LED spotlight, white, 4 pack
   
   Article Number : 103.517.33
   
@@ -95,30 +95,32 @@ Microwave Controller for Ikea Kitchen DUKTIG
   But better to double check with a multimeter.
   
 
-  magnetic door sensor (reed switch) [could also use a micro switch]
+  - magnetic door sensor (reed switch) [could also use a micro switch]
   
-  3mm Acrylic sheet
+  - 3mm Acrylic sheet
   
 
-  50mm L Angle Bracket
+  - 50mm L Angle Bracket
   
   https://www.bunnings.com.au/zenith-50mm-zinc-plated-angle-brackets-4-pack_p2760232
   
 
-  various screws and bolts 
+  - various screws and bolts 
   
-  4G X 12mm timber screws
+  - 4G X 12mm timber screws
   
-  washer 5/32" / M4
+  - washer 5/32" / M4
   
-  Bolts & Nuts 3/16" X 15mm / M5
+  - Bolts & Nuts 3/16" X 15mm / M5
   
   
   ------------------------------------------------------------
   Library Used
   
   https://github.com/SpenceKonde/ATTinyCore
+  
   https://miguelpynto.github.io/ShiftDisplay/
+  
   https://www.pjrc.com/teensy/td_libs_Encoder.html
 
   ------------------------------------------------------------
