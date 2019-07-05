@@ -1,2 +1,2 @@
 # Toy-Ikea-MicrowaveController
-Microware Controller for Ikea Kitchen DUKTIG
+Microwave Controller for Ikea Kitchen DUKTIG
