@@ -129,14 +129,19 @@ int16_t durationKnob = 0; // timer duration in sec
 
 
 // notes in the melody: when timer finishes
+//int melody[] = {
+//  NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4
+//};
 int melody[] = {
-  NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4
+  NOTE_C4, NOTE_G3, NOTE_C4
 };
 // note durations: 4 = quarter note, 8 = eighth note, etc.:
+//int noteDurations[] = {
+//  4, 8, 8, 4, 4, 4, 4, 4
+//};
 int noteDurations[] = {
-  4, 8, 8, 4, 4, 4, 4, 4
+  10, 10, 10
 };
-
 
 
 ShiftDisplay display(LATCH_PIN, CLOCK_PIN, DATA_PIN, COMMON_CATHODE, 4);
@@ -176,41 +181,25 @@ void processKnob()
       durationKnob = 0;
       stepts = 0;
     }
-    // increment timer by 5 sec from 0 to 60 sec
-    else if  (0 <= stepts && stepts <= 12)
+    // increment timer by 5 sec from 0 to 10 sec
+    else if  (0 <= stepts && stepts <= 10)
     {
       if (positive)
       {
-        durationKnob = durationKnob + 5;
+        durationKnob = durationKnob + 1;
       }
       else
       {
-        durationKnob = durationKnob - 5;
+        durationKnob = durationKnob - 1;
       }
     }
     // increment timer by 10 sec from 1min to 5 min
-    else if  (13 <= stepts && stepts <= 36)
+    else if  (11 <= stepts)
     {
-      if (positive)
-      {
-        durationKnob = durationKnob + 10;
-      }
-      else
-      {
-        durationKnob = durationKnob - 10;
-      }
-    }
-    // increment timer by 30 sec from 5min onwards to 51min
-    else if  (37 <= stepts)
-    {
-      if (positive)
-      {
-        durationKnob = durationKnob + 30;
-      }
-      else
-      {
-        durationKnob = durationKnob - 30;
-      }
+      positionKnobNew = 10;
+      knob.write(10);
+      durationKnob = 10;
+      stepts = 10;
     }
 
 #ifdef DEBUG
@@ -414,6 +403,8 @@ void processCounddown()
         // lights off
         lightState = LOW;
         playMelody();
+        // turn off the repeat nag
+        countdownClear = true;
       }
       else
       {
