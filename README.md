@@ -1,3 +1,9 @@
+### changes compared to master
+- disable repeat reminder after finishing if door is not open
+- three simple beep at the end instead of melody
+- knob increase timer by 1 sec each step to a maximum of 10 sec
+
+
 # Toy-Ikea-MicrowaveController
 Microwave Controller for Ikea Kitchen DUKTIG
 
